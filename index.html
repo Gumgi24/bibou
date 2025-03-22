@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélection Mignonne de Films</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFF0F5; /* Fond rose pastel */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #E6E6FA; /* En-tête violet pastel */
+        }
+        header img {
+            height: 50px;
+        }
+        .banner {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.8em;
+            color: #FF1493;
+            margin: 20px 0;
+            white-space: pre;
+        }
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .movie-item {
+            background-color: #FFF;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            width: 300px;
+            text-align: center;
+        }
+        .movie-item:hover {
+            transform: scale(1.05);
+        }
+        .movie-item img {
+            width: 100%;
+            height: auto;
+        }
+        .movie-item a {
+            text-decoration: none;
+            color: #333;
+        }
+        .movie-info {
+            padding: 10px;
+        }
+        .movie-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .movie-score {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .movie-synopsis {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .movie-details {
+            font-size: 0.8em;
+            color: #777;
+        }
+        .ascii-art {
+            font-family: 'Courier New', Courier, monospace;
+            color: #FF69B4;
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://gallerypngs.com/wp-content/uploads/2024/11/Sanrio-Cinnamoroll-Png-Picture.png" alt="Image Gauche">
+        <img src="https://static.wikia.nocookie.net/yokai-watch-fr2142/images/8/88/Kuromi.png/revision/latest?cb=20190428142635&path-prefix=fr" alt="Image Droite">
+    </header>
+
+    <!-- Banner ASCII -->
+    <div class="banner">
+╔══════════════════════════════════╗
+║      Coucou la Bibou !          ║
+╚══════════════════════════════════╝
+    </div>
+
+    <div class="ascii-art">
+        ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+    </div>
+
+    <div class="movie-container">
+        <!-- Film 1 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/the_colors_within" target="_blank">
+                <img src="https://resizing.flixster.com/N6Ep8cShN5yfeLjBx81QSvQIT6Q=/fit-in/180x240/v2/https://resizing.flixster.com/CnQ6Z-MgOl_RHEWut150YmH-XVs=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzk0NDJhNjc1LTViZjUtNDdlOS04OWJkLThiMmY0OTU0YzZlYi5qcGc=" alt="The Colors Within">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">The Colors Within</div>
+                <div class="movie-score">Tomatometer : 93%</div>
+                <div class="movie-synopsis">Totsuko est une lycéenne capable de voir les 'couleurs' des autres.</div>
+                <div class="movie-details">Avec : Sayu Suzukawa, Akari Takaishi, Taisei Kido, Yui Aragaki</div>
+                <div class="movie-details">Réalisé par : Naoko Yamada</div>
+            </div>
+        </div>
+        <!-- Film 2 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/bring_them_down" target="_blank">
+                <img src="https://resizing.flixster.com/PN6higSH6Q4F5tUQEgFL4aT3yLc=/fit-in/180x240/v2/https://resizing.flixster.com/Jm9pNq2VeBJOzB9xpGi7bfpUDXw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2FkOGNmMTMxLWNjNjctNDg5NC04MzM0LWRjMjE5NWRmMzhmZi5wbmc=" alt="Bring Them Down">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Bring Them Down</div>
+                <div class="movie-score">Tomatometer : 90%</div>
+                <div class="movie-synopsis">Un film tendu mettant en vedette Barry Keoghan, nominé aux Oscars.</div>
+                <div class="movie-details">Avec : Christopher Abbott, Barry Keoghan, Nora Jane Noone, Paul Ready</div>
+                <div class="movie-details">Réalisé par : Chris Andrews</div>
+            </div>
+        </div>
+        <!-- Film 3 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/the_damned_2024_2" target="_blank">
+                <img src="https://resizing.flixster.com/N7P57hhPevCx00LeGA2-ZODFeVo=/fit-in/180x240/v2/https://resizing.flixster.com/AwhgsRRLWHv6s3AO_EZKMeqUA-g=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJjMWViMGM1LWZiYTgtNDM2Ny05NDEwLTY5ZTg4ODYyZTRmYi5qcGc=" alt="The Damned">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">The Damned</div>
+                <div class="movie-score">Tomatometer : 91%</div>
+                <div class="movie-synopsis">Eva, une veuve du 19ème siècle, doit faire un choix impossible.</div>
+                <div class="movie-details">Avec : Odessa Young, Joe Cole, Lewis Gribben, Siobhan Finneran</div>
+                <div class="movie-details">Réalisé par : Þórður Pálsson</div>
+            </div>
+        </div>
+        <!-- Film 4 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/presence_2024" target="_blank">
+                <img src="https://resizing.flixster.com/euupv9i8RVdPmx5U9M6ItdKLorg=/fit-in/180x240/v2/https://resizing.flixster.com/CY5tFqNlNhJJ3f126TgA9OOwchk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzllNjlhNTUzLWQ0YjAtNGVhYy1hYzgzLTEwZjI3NzU1OGYyMC5qcGc=" alt="Presence">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Presence</div>
+                <div class="movie-score">Tomatometer : 88%</div>
+                <div class="movie-synopsis">Une famille emménage dans une maison de banlieue et pense ne pas être seule.</div>
+                <div class="movie-details">Avec : Lucy Liu, Julia Fox, Chris Sullivan, Lucas Papaelias</div>
+                <div class="movie-details">Réalisé par : Steven Soderbergh</div>
+            </div>
+        </div>
+        <!-- Film 5 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/bridget_jones_4_mad_about_the_boy" target="_blank">
+                <img src="https://resizing.flixster.com/mvgojuzbsWr1b7SoAUBZVRsdLOg=/fit-in/180x240/v2/https://resizing.flixster.com/2eMDzy22zO3VTzdKSoaxYyxMQ-A=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ExYjNmYzhhLTY2MWEtNGQyOS1hMGFiLWVkYzY1ZTA4MWViMy5qcGc=" alt="Bridget Jones : Folle du garçon">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Bridget Jones : Folle du garçon</div>
+                <div class="movie-score">Tomatometer : 89%</div>
+                <div class="movie-synopsis">Bridget Jones se retrouve coincée entre un homme plus jeune et son ex.</div>
+                <div class="movie-details">Avec : Renée Zellweger, Chiwetel Ejiofor, Leo Woodall, Colin Firth</div>
+                <div class="movie-details">Réalisé par : Michael Morris</div>
+            </div>
+        </div>
+        <!-- Film 6 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/mickey_17" target="_blank">
+                <img src="https://resizing.flixster.com/CFXfXMsowJVQX3uZguoeWjgrB3o=/fit-in/180x240/v2/https://resizing.flixster.com/1OiUfykO45X98oT74J71RvidMxA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ExNDlhNzE2LTFlODMtNGMyNi04ZWY1LTNlYmY5N2ZmYWJhNy5qcGc=" alt="Mickey 17">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Mickey 17</div>
+                <div class="movie-score">Tomatometer : 77%</div>
+                <div class="movie-synopsis">Mickey 17 part en voyage dangereux pour coloniser une planète de glace.</div>
+                <div class="movie-details">Avec : Robert Pattinson, Naomi Ackie, Steven Yeun, Toni Collette</div>
+                <div class="movie-details">Réalisé par : Bong Joon Ho</div>
+            </div>
+        </div>
+        <!-- Film 7 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/superboys_of_malegaon" target="_blank">
+                <img src="https://resizing.flixster.com/xgWwLFmE8SNG7GPrrN4PwG9cSck=/fit-in/180x240/v2/https://resizing.flixster.com/yW6UQWyO7XYLsty29U2KDOD9Awk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2I0MTkxZWFiLThkOWQtNGFkZi05MWNkLTEzYjU3NGI1MzU3MS5qcGc=" alt="Superboys of Malegaon">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Superboys of Malegaon</div>
+                <div class="movie-score">Tomatometer : 88%</div>
+                <div class="movie-synopsis">Un film basé sur la vie de Nasir Shaikh, un cinéaste amateur.</div>
+                <div class="movie-details">Avec : Adarsh Gourav, Vineet Kumar Singh, Shashank Arora</div>
+                <div class="movie-details">Réalisé par : Reema Kagti</div>
+            </div>
+        </div>
+        <!-- Film 8 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/heart_eyes" target="_blank">
+                <img src="https://resizing.flixster.com/1YC-yaDRMA_1HHaMWhALrXR1udU=/fit-in/180x240/v2/https://resizing.flixster.com/mY0lXjBh9WP5jzEOlvhlz8XnmYA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzMwYjdlZDc2LWFhYWUtNDU3Ny1hN2FmLTQxYWViOTljYzg1Ni5qcGc=" alt="Heart Eyes">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Heart Eyes</div>
+                <div class="movie-score">Tomatometer : 81%</div>
+                <div class="movie-synopsis">Le "Heart Eyes Killer" sème le chaos le jour de la Saint-Valentin.</div>
+                <div class="movie-details">Avec : Olivia Holt, Mason Gooding, Gigi Zumbado, Jordana Brewster</div>
+                <div class="movie-details">Réalisé par : Josh Ruben</div>
+            </div>
+        </div>
+        <!-- Film 9 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/dog_man" target="_blank">
+                <img src="https://resizing.flixster.com/0L-bbXLwsV8CW7FrcCD7WZRb4lM=/fit-in/180x240/v2/https://resizing.flixster.com/HPdK25sm6ORpv8lKoGQhenwqpNI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YwMjdlMTNkLTkzYzEtNDFjYy05NzU1LTEyZWRlYzExMDBjYy5qcGc=" alt="Dog Man">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Dog Man</div>
+                <div class="movie-score">Tomatometer : 80%</div>
+                <div class="movie-synopsis">Un chien policier fidèle et son propriétaire policier sont blessés ensemble dans l'exercice de leurs fonctions.</div>
+                <div class="movie-details">Avec : Pete Davidson, Lil Rel Howery, Isla Fisher, Poppy Liu</div>
+                <div class="movie-details">Réalisé par : Peter Hastings</div>
+            </div>
+        </div>
+        <!-- Film 10 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/last_breath_2025" target="_blank">
+                <img src="https://resizing.flixster.com/b1HTK_azzbyePGrjNn1dIQfTSnM=/fit-in/180x240/v2/https://resizing.flixster.com/a2R617LgmOW6sypCw_2rlWlz2-M=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2IxMmRhMDFkLTA2ZDUtNGUyNS1hOGE0LTQzZTdjNzAwNDgzMC5qcGc=" alt="Last Breath">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Last Breath</div>
+                <div class="movie-score">Tomatometer : 79%</div>
+                <div class="movie-synopsis">Des plongeurs en haute mer affrontent les éléments déchaînés pour sauver leur coéquipier.</div>
+                <div class="movie-details">Avec : Woody Harrelson, Simu Liu, Finn Cole, Cliff Curtis</div>
+                <div class="movie-details">Réalisé par : Alex Parkinson</div>
+            </div>
+        </div>
+        <!-- Film 11 -->
+        <div class="movie-item">
+            <a href="https://www.rottentomatoes.com/m/armand" target="_blank">
+                <img src="https://resizing.flixster.com/HSWcDdWf9iDeXt_ZNb3Ql19mdqA=/fit-in/180x240/v2/https://resizing.flixster.com/GWtw-MiSEJlwHAv9dHA2okZqJp8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2M5YjA1YjZiLWE0M2YtNGNkZS1hNjlkLTQ0Mjg0NGQyNGM2Zi5qcGc=" alt="Armand">
+            </a>
+            <div class="movie-info">
+                <div class="movie-title">Armand</div>
+                <div class="movie-score">Tomatometer : 75%</div>
+                <div class="movie-synopsis">L'actrice déshonorée Elisabeth est convoquée à une réunion parents-professeurs.</div>
+                <div class="movie-details">Avec : Renate Reinsve, Ellen Dorrit Petersen, Øystein Røger, Endre Hellestveit</div>
+                <div class="movie-details">Réalisé par : Halfdan Ullmann Tøndel</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ascii-art">
+        ^•^•^•^•^•^•^•^•^•^•
+    </div>
+
+    <div class="ascii-art">
+        (=^・^=) (=^・^=) (=^・^=)
+    </div>
+
+    <div class="ascii-art">
+        ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+    </div>
+</body>
+</html>
