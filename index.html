@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #FFF0F5; /* Fond rose pastel */
+            background-color: #FFC0CB; /* Fond pastel pink */
             color: #333;
             margin: 0;
             padding: 0;
@@ -20,7 +20,11 @@
             background-color: #E6E6FA; /* En-tête violet pastel */
         }
         header img {
+            /* Par défaut, garder la hauteur initiale pour toutes images sauf si spécifié autrement */
             height: 50px;
+        }
+        header img.header-left {
+            height: 100px; /* Agrandir l'image de gauche */
         }
         .banner {
             text-align: center;
@@ -87,15 +91,15 @@
 </head>
 <body>
     <header>
-        <img src="https://gallerypngs.com/wp-content/uploads/2024/11/Sanrio-Cinnamoroll-Png-Picture.png" alt="Image Gauche">
-        <img src="https://static.wikia.nocookie.net/yokai-watch-fr2142/images/8/88/Kuromi.png/revision/latest?cb=20190428142635&path-prefix=fr" alt="Image Droite">
+        <img class="header-left" src="https://gallerypngs.com/wp-content/uploads/2024/11/Sanrio-Cinnamoroll-Png-Picture.png" alt="Image Gauche">
+        <img src="https://m.media-amazon.com/images/I/31ftiZ+4zpL._SS400_.jpg" alt="Image Droite">
     </header>
 
-    <!-- Banner ASCII -->
+    <!-- Banner ASCII avec plus de mignonneries -->
     <div class="banner">
-╔══════════════════════════════════╗
-║      Coucou la Bibou !          ║
-╚══════════════════════════════════╝
+╔════════════════════════════════════════════════╗
+║  Coucou la Bibou !  (っ◔◡◔)っ ♥  (づ｡◕‿‿◕｡)づ   ║
+╚════════════════════════════════════════════════╝
     </div>
 
     <div class="ascii-art">
